@@ -1,0 +1,52 @@
+/*Cenário*/
+body {
+    background: url(../src/img/bg.jpg) no-repeat;
+    background-size: 100%;
+}
+
+/*Tamanho do mosquito*/
+.mosquito1 {
+    width: 50px;
+    height: 50px;
+}
+
+.mosquito2 {
+    width: 70px;
+    height: 70px;
+}
+
+.mosquito3 {
+    width: 90px;
+    height: 90px;
+}
+/*Lado do mosquito*/
+.ladoB {
+    transform: scaleX(-1);
+}
+
+/*Painel do jogo*/
+#painel {
+    position: absolute;
+    width: 225px;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    border-top: solid 1px #fff;
+    background: #fff;
+    opacity: 0.7;
+}
+
+.vidas {
+    float: left;
+}
+
+.cronometro {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*Cursor do jogo*/
+html#jogo {
+    cursor: url(../src/img/mata_mosca.png) 30 30, auto;
+}
